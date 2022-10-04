@@ -1,0 +1,50 @@
+<div class="imageWrapper">
+  <div class="icons">
+    <i class="bi bi-x-circle-fill" (click)="removePlayer()"></i><br>
+    <i class="bi bi-pencil-square" (click)="editPlayer(content)"></i>
+  </div>
+  <img src="{{player.picture}}">
+  <img class="background-pic"
+       src="https://cdn.freebiesupply.com/images/large/2x/minnesota-timberwolves-logo-transparent.png">
+</div>
+<div>{{player.name}}</div>
+<div>{{player.position}}</div>
+<div>{{player.number}}</div>
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Add Player: </h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click');resetInput()"></button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="mb-3">
+        <label for="name">Name:</label>
+        <div class="input-group">
+          <input id="name" class="form-control" type="text" name="name" [(ngModel)]="name">
+        </div>
+        <label for="position">Position:</label>
+        <div class="input-group">
+          <select id="position" name="position" class="form-control" [(ngModel)]="position">
+            <option value="PG">PG</option>
+            <option value="SG">SG</option>
+            <option value="SF">SF</option>
+            <option value="PF">PF</option>
+            <option value="C">C</option>
+          </select>
+        </div>
+        <label for="number">Jersey Number:</label>
+        <div class="input-group">
+          <input id="number" name="number" class="form-control" [(ngModel)]="number" type="number">
+        </div>
+        <label for="imgURL">Image URL:</label>
+        <div class="input-group">
+          <input id="imgURL" name="imgURL" class="form-control" type="text" [(ngModel)]="imgURL">
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="save()">Save</button>
+  </div>
+</ng-template>

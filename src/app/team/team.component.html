@@ -1,0 +1,6 @@
+<app-add-player (onUpdateTeam)="getPlayers()"></app-add-player>
+<div class="row">
+  <div *ngFor="let player of playerList" class="col-6">
+    <app-players [player]="player" (onUpdateTeam)="getPlayers()"></app-players>
+  </div>
+</div>

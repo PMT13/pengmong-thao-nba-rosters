@@ -1,0 +1,67 @@
+{
+  "timberwolves": [
+    {
+      "id": 1,
+      "name": "D'Angelo Russell",
+      "number": 0,
+      "position": "PG",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3136776.png&w=350&h=254"
+    },
+    {
+      "id": 2,
+      "name": "Anthony Edwards",
+      "number": 1,
+      "position": "SG",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4594268.png&w=350&h=254"
+    },
+    {
+      "id": 3,
+      "name": "Jaden McDaniels",
+      "number": 3,
+      "position": "SF",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4431671.png&w=350&h=254"
+    },
+    {
+      "id": 4,
+      "name": "Karl-Anthony Towns",
+      "number": 32,
+      "position": "PF",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3136195.png&w=350&h=254"
+    },
+    {
+      "id": 5,
+      "name": "Rudy Gobert",
+      "number": 27,
+      "position": "C",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032976.png&w=350&h=254"
+    },
+    {
+      "id": 6,
+      "name": "Jaylen Nowell",
+      "number": 4,
+      "position": "SG",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4278541.png&w=350&h=254"
+    },
+    {
+      "id": 7,
+      "name": "Kyle Anderson",
+      "number": 5,
+      "position": "SF",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2993874.png&w=350&h=254"
+    },
+    {
+      "id": 8,
+      "name": "Jordan McLaughlin",
+      "number": 6,
+      "position": "PG",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3134916.png&w=350&h=254"
+    },
+    {
+      "id": 10,
+      "name": "Taurean Prince",
+      "number": 12,
+      "position": "PF",
+      "picture": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2990962.png&w=350&h=254"
+    }
+  ]
+}
